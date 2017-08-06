@@ -1,0 +1,17 @@
+.outer {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 100px;
+	height: 200px;
+	width: 200px;
+	background-color: green;
+}
+.inner {
+	position: relative;
+	margin-top: 50%;
+	margin-left: 50%;
+	height: 100px;
+	width: 100px;
+	background-color: orange;
+	transform: translate(-50%, -50%);
+}
