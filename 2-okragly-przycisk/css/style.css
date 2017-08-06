@@ -1,14 +1,17 @@
-.outer {
-  	position: relative;
+
+.circle-button {
+	position: relative;
 	width: 60px;
 	height: 60px;
-  	border: 1px solid;
-  	border-radius: 60px;
-	background-color: aqua;
+  	border: 0px solid;
+  	border-radius: 50%;
+	background-color: black;
+	color: gray;
+	text-align: center;
+	line-height: 70px;
+	display: inline-block;
 }
-.inner {
-	position: absolute;
-	margin-top: 50%;
-	margin-left: 50%;
-	transform: translate(50%, 50%)
+.circle-button:hover {
+	color: black;
+	background-color: gray;
 }
