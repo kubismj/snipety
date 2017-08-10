@@ -1,0 +1,20 @@
+label {
+	color: darkblue;
+	font-size: 15px;
+	font-style: italic;
+	font-stretch: expanded;
+	font-family: sans-serif;
+}
+::placeholder {
+	color: red;
+	text-align: right;
+}
+input:hover {
+	color: white;
+	background-color: grey;
+}
+input[type="submit"] {
+	font-size: 20px;
+	border-radius: 5px;
+	color: blue;
+}

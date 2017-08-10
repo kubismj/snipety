@@ -1,0 +1,17 @@
+body {
+	background-color: grey;
+}
+
+a[href$=".docx"] {
+	color: aqua;
+    cursor: auto;
+    text-decoration: underline;
+}
+a[href$=".doc"] {
+	color: green;
+    cursor: auto;
+    text-decoration: underline;
+}
+a:hover {
+	color: black;
+}
