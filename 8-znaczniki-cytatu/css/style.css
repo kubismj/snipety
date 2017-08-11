@@ -1,0 +1,19 @@
+body {
+	background-color: aqua;
+}
+
+q:before {
+	content: open-quote;
+}
+q:after {
+	content: close-quote;
+}
+:lang(en) {
+	quotes: '"' '"';
+}
+:lang(pl) {
+	quotes: '*' '*';
+}
+:lang(de) {
+	quotes: '*' '*';
+}
