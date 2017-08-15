@@ -1,0 +1,22 @@
+body {
+	background-color: grey;
+}
+.container {
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	margin: 60px;
+	overflow: hidden;
+}
+
+#truskawka {
+	width: 100px;
+	height: 100px;
+	background: url(../img/owoc.jpg);
+	transition: all 1s ease-in-out;
+	margin: auto;
+}
+#truskawka:hover {
+	width: 200px;
+	height: 200px;
+}
